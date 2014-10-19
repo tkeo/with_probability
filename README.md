@@ -1,6 +1,6 @@
 # WithProbability
 
-TODO: Write a gem description
+This gem defines a method about probability.
 
 ## Installation
 
@@ -20,11 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+with_probability(0.1) do
+  # yields this block with probability 10%
+end
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/with_probability/fork )
+1. Fork it ( https://github.com/tkeo/with_probability/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
